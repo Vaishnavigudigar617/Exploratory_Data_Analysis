@@ -1,7 +1,8 @@
 Titanic EDA Report: 
-Exploratory Data Analysis (EDA) is the process of examining datasets to summarize their key characteristics using statistics and visualizations. It helps to understand patterns, detect outliers, discover relationships between variables, and guide further data preprocessing or modeling.
+**
+Exploratory Data Analysis (EDA)** is the process of examining datasets to summarize their key characteristics using statistics and visualizations. It helps to understand patterns, detect outliers, discover relationships between variables, and guide further data preprocessing or modeling.
 
-The Titanic dataset is a well-known dataset from Kaggle that contains information about the passengers aboard the Titanic during its ill-fated maiden voyage in 1912. It includes features like age, sex, ticket class, fare paid, and whether a passenger survived or not. The goal is to analyze patterns and factors influencing passenger survival.
+The **Titanic dataset** is a well-known dataset from Kaggle that contains information about the passengers aboard the Titanic during its ill-fated maiden voyage in 1912. It includes features like age, sex, ticket class, fare paid, and whether a passenger survived or not. The goal is to analyze patterns and factors influencing passenger survival.
 ### 🔍 **1. Data Overview**
 
 - The dataset contains **891 rows** and **12 columns**.
