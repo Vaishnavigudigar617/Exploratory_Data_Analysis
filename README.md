@@ -3,22 +3,22 @@ Titanic EDA Report:
 **Exploratory Data Analysis (EDA)** is the process of examining datasets to summarize their key characteristics using statistics and visualizations. It helps to understand patterns, detect outliers, discover relationships between variables, and guide further data preprocessing or modeling.
 
 The **Titanic dataset** is a well-known dataset from Kaggle that contains information about the passengers aboard the Titanic during its ill-fated maiden voyage in 1912. It includes features like age, sex, ticket class, fare paid, and whether a passenger survived or not. The goal is to analyze patterns and factors influencing passenger survival.
+
 ###  **1. Data Overview**
 
 - The dataset contains **891 rows** and **12 columns**.
-- `Age`, `Cabin`, and `Embarked` have **missing values**.
-- Features include both categorical (e.g., `Sex`, `Embarked`) and numerical data (`Age`, `Fare`, `SibSp`).
+- Age, Cabin, and Embarked have **missing values**.
+- Features include both categorical (e.g., Sex, Embarked) and numerical data (Age, Fare, SibSp).
 
----
 
 ###  **2. Univariate Analysis**
+Univariate analysis is the statistical examination of one variable at a time.
 
 #### **Age Distribution**
 - Most passengers were **between 20 and 40 years old**.
 - A few infants and elderly passengers are present.
 
 ####  **Fare Distribution**
-- Fare is right-skewed.
 - Majority of fares are below **$50**, with a few high-paying outliers up to **$500**.
 
 ####  **Sex Distribution**
@@ -31,12 +31,13 @@ The **Titanic dataset** is a well-known dataset from Kaggle that contains inform
 
 
 ###  **3. Bivariate Analysis**
+Bivariate analysis examines the relationship between two variables.
 
 ####  **Survival by Gender**
 - **Survival rate is much higher for females** than males.
 - Among males, a majority did not survive.
 
-####  **Survival by Pclass**
+####  **Survival by Passenger class**
 - Passengers in **1st class had the highest survival rate**.
 - 3rd class had the **lowest survival rate**.
 
@@ -51,9 +52,9 @@ The **Titanic dataset** is a well-known dataset from Kaggle that contains inform
 ###  **4. Multivariate & Correlation Analysis**
 
 ####  Correlation Heatmap
-- `Fare` and `Pclass` show **moderate correlation with Survival**.
-- `Parch` and `SibSp` are weakly correlated with `Survived`.
-- `Age` has **little correlation** with `Survived`.
+- Fare and Pclass show **moderate correlation with Survival**.
+- Parch and SibSp are weakly correlated with `Survived`.
+- Age has **little correlation** with `Survived`.
 
 ####  Pairplot
 - Clusters show **survivors were generally younger and paid higher fares**.
@@ -61,10 +62,10 @@ The **Titanic dataset** is a well-known dataset from Kaggle that contains inform
 
 ---
 
-###  ** Summary of Findings**
+###  Summary of Findings
 
-- 🔹 **Sex and Passenger class** are the strongest predictors of survival.
-- 🔹 Passengers who **paid higher fares** (especially in 1st class) were more likely to survive.
-- 🔹 **Women and children** had better survival odds.
-- 🔹 **Solo travelers**, especially males in 3rd class, were most vulnerable.
-- 🔹 Missing data in `Cabin` is significant and may need to be dropped or imputed.
+-  **Sex and Passenger class** are the strongest predictors of survival.
+-  Passengers who **paid higher fares** (especially in 1st class) were more likely to survive.
+-  **Women and children** had better survival odds.
+-  **Solo travelers**, especially males in 3rd class, were most vulnerable.
+-  Missing data in `Cabin` is significant and may need to be dropped or imputed.
