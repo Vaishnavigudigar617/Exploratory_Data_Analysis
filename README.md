@@ -68,4 +68,4 @@ Bivariate analysis examines the relationship between two variables.
 -  Passengers who **paid higher fares** (especially in 1st class) were more likely to survive.
 -  **Women and children** had better survival odds.
 -  **Solo travelers**, especially males in 3rd class, were most vulnerable.
--  Missing data in `Cabin` is significant and may need to be dropped or imputed.
+-  Missing data in Cabin is significant and may need to be dropped or imputed.
